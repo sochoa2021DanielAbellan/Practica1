@@ -12,11 +12,11 @@
         android:id="@+id/tvBienvenida"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/nombre" />
+        android:text="@string/peticionNombre" />
 
     <EditText
         android:id="@+id/etNombre"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="text" />
 
@@ -24,6 +24,19 @@
         android:id="@+id/btnAceptar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/aceptar" />
+        android:text="@string/botonAceptar"/>
+
+    <Button
+        android:id="@+id/btnHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botonHora"/>
+
+    <TextView
+        android:id="@+id/minombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/nombreAutor"/>
 
 </LinearLayout>

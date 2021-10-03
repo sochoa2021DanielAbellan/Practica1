@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Practica1</string>
-    <string name="nombre">Escribe tu nombre: </string>
-    <string name="aceptar">Aceptar</string>
+    <string name="peticionNombre">Escribe tu nombre: </string>
+    <string name="botonAceptar">Aceptar</string>
+    <string name="botonHora">Dime la hora</string>
+    <string name="nombreAutor">Daniel Abellán Zárate</string>
+    <string name="horaConFormato">La hora a la que has pulsado el botón es %1$d:%2$d:%3$d y mi nombre es %4$s</string>
 </resources>
